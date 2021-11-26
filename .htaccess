@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^home$ index.php?page=home.php [L]
+RewriteRule ^pasaran$ index.php?page=form.php [L]
+RewriteRule ^tentang$ index.php?page=about.php [L]
+RewriteRule ^fr2$ index.php?page=form2.php [L]
+RewriteRule ^scanner$ index.php?page=scan.php [L]
+Options All -Indexes
+</IfModule>
